@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: kafka-springboot
+  config:
+    import: ${section}/${config}.yaml
